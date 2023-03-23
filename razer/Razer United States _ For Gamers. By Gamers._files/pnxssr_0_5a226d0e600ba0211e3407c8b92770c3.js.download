@@ -1,0 +1,44 @@
+if(document.querySelector(".footer") && typeof validFooter === 'undefined'){
+	var footer_acc = document.getElementsByClassName("footer-label-v2");
+	var footer_check_screen_width = window.innerWidth;
+    var resizeWinFooter = function(){
+    	if (window.innerWidth != footer_check_screen_width) {
+         	footer_check_screen_width = window.innerWidth;
+       		initFooterAccordion();
+        }
+    }
+    var initFooterAccordion = function(){
+        if (footer_check_screen_width <= 767) {
+            for (var i = 0; i < footer_acc.length; i++) {
+                footer_acc[i].addEventListener("click", toggleFooterAccordion, false);
+                footer_acc[i].classList.remove("footer-active");
+                footer_acc[i].nextElementSibling.style.display = "none";
+            } 
+        }
+        else {
+            for (var i = 0; i < footer_acc.length; i++) {
+                footer_acc[i].removeEventListener("click", toggleFooterAccordion, false);
+                footer_acc[i].classList.remove("footer-active");
+                footer_acc[i].nextElementSibling.style.display = "block";
+            } 
+        }
+    }
+	var toggleFooterAccordion = function(){
+        for (var j = 0; j < footer_acc.length; j++) { 
+            if (footer_acc[j].classList.contains("footer-active") && (this.classList.contains("footer-active")===false)){
+                footer_acc[j].classList.remove("footer-active");
+                footer_acc[j].nextElementSibling.style.display = "none";
+            }
+        }
+        this.classList.toggle("footer-active");
+        var footerpanel = this.nextElementSibling;
+        if (footerpanel.style.display === "block") {
+       	    footerpanel.style.display = "none";
+        } else {
+            footerpanel.style.display = "block";
+        }
+    } 
+	initFooterAccordion();
+    window.addEventListener("resize", resizeWinFooter);
+}
+if(!validFooter) var validFooter = true;

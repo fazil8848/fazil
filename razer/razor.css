@@ -1,0 +1,584 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+   
+
+#block1
+{
+    /*position: fixed;
+    top: 0px;
+    right: 0px;*/
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+#block1 h4:hover{
+    color: white;
+}
+
+#block1 span:hover{
+    color: white;
+}
+
+#block1 span{
+    color: rgb(156, 161, 161);
+    padding: 50px;
+}
+h4
+{
+    font-weight: 10;
+    font-family:monospace;
+    font-size: 17px;
+    color: rgb(156, 161, 161); 
+    margin-left: 60px;
+}
+
+#block1 img
+{
+   margin-left: 144px;
+   width: 64px;
+   height: 36px;
+}
+#notification
+{
+    width: 100%;
+    height: 42px;
+    background-color: rgb(78, 75, 75);
+    margin-top: -1px;
+    padding-left : 500px;
+    padding-top: 10px;
+    color: rgb(249, 246, 242);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#block2
+{
+    width: 100%;
+    height: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left : 160px ;
+    padding-top: 18px;
+    background-color: rgb(36, 34, 34);
+    color: white;
+}
+#maindiv
+{
+    background-color: #222;
+    width: 100%;
+    height: auto;
+    
+}
+
+
+h1
+{ 
+    font-family: sans-serif;
+    color: azure;
+    margin-left: 40%;
+}
+.greenbutton
+{
+    background-color: rgb(71, 240, 33);
+    margin-left: 75%;
+    border-radius: 5px;
+    align-content: center;
+    padding-left: 5px;
+    width: 40px;
+    height: 25px;
+    color: black;
+    align-self: center;
+    margin-top: -25px;
+}
+
+.maindivB
+{
+  background-color: #222;
+}
+.maindivB a
+{
+   color: aliceblue;
+    text-decoration: none;
+}
+
+.maindivB a:hover{
+
+    text-decoration: underline;
+}
+
+#yellowdivmain
+{
+position: absolute;
+top: 127px;
+left: 710px;
+}
+
+
+#yellowdiv
+{
+    font-family: sans-serif;
+    border: 0;
+    width: 100px;
+    height: 35px;
+    background-color: rgb(236, 154, 2);
+    color: rgb(7, 7, 7);
+    padding-left: 14px;
+    padding-top: 6px;
+   
+}
+
+#razEredge
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 340%;
+    top: 177px;
+    position: absolute;
+}
+
+#DefaultFonts
+{
+    font-size: 170%;
+    color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+    top: 250px;
+    left: 33%;
+    position: absolute;
+}
+
+.FontLearnMore
+{
+    font-size: 126%;
+    color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+    top: 295px;
+    left: 44%;
+    position: absolute;
+}
+
+.FontBuy
+{
+    font-size: 126%;
+    color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+    top: 295px;
+    left: 54%;
+    position: absolute;
+}
+.imageSettings
+{
+    width: 100%;
+    padding-top: 10px;
+}
+
+#AtlasFonts
+{
+    font-size: 170%;
+    color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+    left: 33%;
+    position: absolute;
+}
+ 
+.third-section
+{
+    display: block;
+   align-items: center;
+}
+.razer-atlas
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 340%;
+    color: aliceblue;
+    position: absolute;
+    padding-top: 20px;
+}
+#Atlas
+{
+    padding-left: 40%;
+    padding-top: 50px;
+}
+.Atlas-second-line
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 189%;
+    color: aliceblue;
+    position: absolute;
+    margin-left: 38%;
+    padding-top: 102px;
+}
+
+.Atlas-Learnmore
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+    color: aliceblue;
+    margin-left: 42%;
+    padding-top: 150px;
+    position: absolute;
+}
+
+.Atlas-buy
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+    color: aliceblue;
+    margin-left: 55%;
+    padding-top: 150px;
+    position: absolute;
+}
+
+.fourth-section
+{
+    display: block;
+   align-items: center;
+}
+.razer-blade-18
+{
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 480px;
+    font-size: 340%;
+    color: aliceblue;
+    position: absolute;
+    padding-top: 60px;
+}
+.blade-second-line
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 160%;
+    color: aliceblue;
+    position: absolute;
+    margin-left: 34%;
+    padding-top: 140px;
+}
+
+.Table-img-Settings
+{
+    padding: 9px 9px 0px 0px;
+    width: 50%;
+    height: 10;
+    float: left;
+    align-content: center;
+    background-color: #222;
+}
+
+.TableHeads
+{
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 180px;
+    font-size: 240%;
+    color: aliceblue;
+    position: absolute;
+    padding-top: 60px;
+}
+.table-second-line
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+    position: absolute;
+    margin-left: 13.5%;
+    padding-top: 120px;
+}
+.table-learnmore{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: aliceblue;
+    margin-left: 16%;
+    padding-top: 160px;
+    position: absolute;
+}
+
+.table-learnmore-right{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: aliceblue;
+    margin-left: 66%;
+    padding-top: 160px;
+    position: absolute;
+}
+
+.TableHeads-Left
+{
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 780px;
+    font-size: 240%;
+    color: aliceblue;
+    position: absolute;
+    padding-top: 600px;
+}
+
+.table-second-line1
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+    position: absolute;
+    margin-left: 50px;
+    padding-top: 120px;
+}
+.TableHeads2
+{
+    margin-top: 550px;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 120px;
+    font-size: 240%;
+    color: aliceblue;
+    position: absolute;
+    padding-top: 60px;
+}
+.razer-edge-cone
+{
+    padding-left: 111px;
+    color: chartreuse;
+}
+
+.fifth-section
+{
+    width : 100%;
+    height: auto;
+    display: block;
+    align-items: center;
+    align-content: center;
+}
+
+.table-second-line2
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+    position: absolute;
+    margin-left: 180px;
+    margin-top:670px;
+}
+.table-learnmore2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: aliceblue;
+    margin-left: 16%;
+    padding-top: 710px;
+    position: absolute;
+}
+
+.blade16
+{
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    color: aliceblue;
+    margin-left: 935px;
+    font-size: 38px;
+    margin-top: 608px;
+}
+.blade16line{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 667px;
+    position: absolute;
+    color: aliceblue;
+    margin-left: 973px;
+}
+
+
+
+.fifth-section-lb{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    position: absolute;
+    color: aliceblue;
+    margin-top: 705px;
+    margin-left: 1031px;
+}
+.buy-pointer-paddin{
+    padding-left: 172px;
+    color: chartreuse;
+}
+.buy-paddin{
+    padding-left: 137px;
+
+}
+
+.learnmore-pointer-paddin{
+    padding-left: 100px;
+    color: chartreuse;
+}
+.yellowdivmain2
+{
+position: absolute;
+top: 3273px;
+left: 320px;
+}
+
+
+.yellowdiv2
+{
+    font-family: sans-serif;
+    border: 0;
+    width: 100px;
+    height: 35px;
+    background-color: rgb(236, 154, 2);
+    color: rgb(7, 7, 7);
+    padding-left: 14px;
+    padding-top: 6px;
+   
+}
+.lamborghini
+{
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    color: aliceblue;
+    margin-left: 225px;
+    font-size: 38px;
+    margin-top: 1225px;
+}
+
+.lamborghini-2-line{
+    padding-top: 612px;
+    padding-left: 23px;
+}
+.sixth-section-lb{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    position: absolute;
+    color: aliceblue;
+    margin-top: 1320px;
+    margin-left: 275px;
+}
+
+.pink-chair
+{
+    padding-top: 580px;
+
+}
+.pink-chair-line{   
+    padding-top: 582px;
+    padding-left: 50px;
+}
+.pink-chair-lb
+{
+    font-size: 16px;
+    padding-top: 13px;
+    padding-left: 105px;
+}
+.pink-chair-pointer{
+    margin-top: -32px;
+    padding-left: 895px;
+    color: limegreen;
+}
+.footer{
+    
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #111111;
+        color: white;
+        text-align: center;
+}
+
+.footer a
+{
+    font-weight: 500;
+    color: #999;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    font-weight: 300;
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+
+.footer-table-head-padding{
+    color: rgb(240, 241, 241); 
+    font-size: 12px;
+    font-weight: bolder;
+    padding-left: 150px;
+    padding-top: 23px;
+    padding-bottom: 15px;
+}
+.footer-table-padding{
+    color: #999; 
+    font-weight: 800;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;;
+}
+
+.footer-table-row-padding{
+    font-size: 12px;
+    padding-left: 150px;
+    padding-bottom: 13px;
+
+}
+.for-gamers-position
+{
+    letter-spacing: 0.5px;
+    position: absolute;
+    margin-left: 10px;
+    float: right;
+    font-size: 14px;
+    color: #44d62c;
+    font-weight: 700;
+    
+}
+
+.footer-icons-padding{
+padding-top: 18px;
+padding-left: 90px;
+padding-right: 10px;
+}
+
+.line-boick-main{
+width: 100%;
+height: 30px;
+background-color: #111111;
+
+}
+
+.line-boick{
+display: flex;
+background-color: #111111;
+padding-left: 153px;
+padding-top: 15px;
+
+}
+.line{
+
+    width: 89%;
+    height: 1px;
+
+}
+.closing-texts-main{
+
+    display: flex;
+
+}
+
+.closing-texts{
+    padding-left: 25px;
+    padding-bottom: 20px;
+    text-align: left;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color: #999;
+}
+.Copyright-text{
+
+    padding-left: 125px;
+    padding-right: 20px;
+}
+
+.closing-united-texts{
+    
+    padding-left: 275px;
+    padding-bottom: 20px;
+    text-align: left;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color: #f5f1f1;
+}
